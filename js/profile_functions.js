@@ -3,11 +3,11 @@
     $(document).ready(function() {
 		
 		// Elastic Image Slideshow with Thumbnail Preview ( Elastic Image Slideshow with Thumbnail Preview )
-        $('#profile-slider').eislideshow({
+      /*  $('#profile-slider').eislideshow({
             easing : 'easeOutExpo',
             titleeasing : 'easeOutExpo',
-            titlespeed : 1200
-        }); // end Elastic Image Slideshow with Thumbnail Preview
+            titlespeed : 1200 
+        }); // end Elastic Image Slideshow with Thumbnail Preview*/
 		
 		// Tool-Tip Controls (McFarland, 2011)
         $('body').on('mouseover', '.trigger',function(){
