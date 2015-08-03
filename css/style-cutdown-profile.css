@@ -259,15 +259,15 @@ h2 {
 h3 {
     font-family: "comicneuesansidmedium";
     font-size: 18px; font-size: 1.8rem;
-    line-height: 1.1em;
-    padding: 20px 0px 20px 0px;
+    line-height: 1em;
+    padding: 1px 0px 5px 0px;
     color: #042143;
     margin: 0px 0px 0px 17px;
 }
 p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 12px; font-size: 1.2rem;
-    line-height: 1.1em;
+    line-height: 1em;
     margin: 0px 0px 0px 17px;    
 }
 a {
@@ -305,23 +305,32 @@ header img {
 /* End Header Styling */
 
 
-
 /* Content Block Styling */
 .content_block {
     border-top: solid 11px #2bbcf2;
-    margin-top: 10px;
+    padding-bottom: 2px;
+	margin-top: 10px;
     margin-bottom: 10px;
-	border-radius: 8px;
+	border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
     width: 100%;
     margin-left: auto auto;
     float: left;
-    background: #6b6b6b;
-    color: #c3c3c3;
-    clear: none;
+    background: #fff;
+    color: #6b6b6b;
+    box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
+	-webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
+	clear: none;
 }
 .content_block img {
     margin: 5px;
     float: left;
+}
+.content_block .bullet {
+   margin: 0px;
+   vertical-align: center;
 }
 .content_block .slide {}
 .content_block h3, 
@@ -430,12 +439,12 @@ img.iframe-contact {
     }
     .content_block p {
         width: 95%;
-        margin: 0px 0px 20px 17px;
+        margin: 0px 0px 2px 17px;
     }
     footer {
         display: block;
         margin-top: 10px;
-		background: #410202;
+		background: #004a80;
         width: 100%;
         bottom: 5px;
         clear: both;
@@ -456,6 +465,10 @@ img.iframe-contact {
         margin-right: auto;
         text-shadow: 1px 1px 0px #000;
     }
+	footer p #cms {
+	    font-family: "shanghairegular";
+		color: #d3d300;
+	}
 }
 @media screen and (max-width: 991px) {
     header {max-width:991px; margin: 0px auto;}

@@ -2,6 +2,24 @@
     /* trigger when page is ready */    
     $(document).ready(function() {
 		
+		// FancyBox ( FancyBox- Fancy JQuery Lightbox Alternative )
+		$(".fancybox").fancybox({
+		    maxWidth	: 992,
+		    maxHeight	: 600,
+		    fitToView	: false,
+		    width		: '90%',
+		    height		: '90%',
+		    autoSize	: false,
+		    closeClick	: false,
+		    openEffect	: 'none',
+		    closeEffect	: 'none',
+			helpers : {
+    		    title : {
+    			    type : 'over'
+    		    }
+    	    }
+	    });
+		
 		// Elastic Slider ( Elastislide - A Responsive JQuery Carousel Plugin )
 		$( '#carousel' ).elastislide( {
 				orientation : 'horizontal',
