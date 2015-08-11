@@ -557,19 +557,19 @@ html.fp-enabled,
     position: absolute;
     right: 0px;
     margin-right: 0px;
-	width: 100%;
+    width: 100%;
     text-align: center;
     top: auto;
-	bottom: 10px;
+    bottom: 10px;
     background: #fff;
-	background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.8);
     padding: 5px 0;
 }
 .ei-title h2, .ei-title h3{
     text-align: center;
 }
 .ei-title h2{
-	font-size: 25px;
+    font-size: 25px;
     line-height: 29px;
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -658,107 +658,107 @@ html.fp-enabled,
 
 /* Start ElastiSlide CSS ( Elastislide - A Responsive JQuery Carousel Plugin ) */
 .elastislide-list {
-	list-style-type: none;
-	display: none;
+    list-style-type: none;
+    display: none;
 }
 .no-js .elastislide-list {
-	display: block;
+    display: block;
 }
 .elastislide-carousel ul li {
-	min-width: 20px; /* minimum width of the image (min width + border) */
+    min-width: 20px; /* minimum width of the image (min width + border) */
 }
 .elastislide-wrapper {
-	position: relative;
-	background-color: #fff;
-	margin: 0 auto;
-	min-height: 60px;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    position: relative;
+    background-color: #fff;
+    margin: 0 auto;
+    min-height: 60px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 .elastislide-wrapper.elastislide-loading {
-	background-image: url(../img/elastislide_loading.gif);
-	background-repeat: no-repeat;
-	background-position: center center;
+    background-image: url(../img/elastislide_loading.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .elastislide-horizontal {
-	padding: 10px 40px;
+    padding: 10px 40px;
 }
 .elastislide-vertical {
-	padding: 40px 10px;
+    padding: 40px 10px;
 }
 .elastislide-carousel {
-	overflow: hidden;
-	position: relative;
+    overflow: hidden;
+    position: relative;
 }
 .elastislide-carousel ul {
-	position: relative;
-	display: block;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	-ms-transform: translateX(0px);
-	-o-transform: translateX(0px);
-	transform: translateX(0px);
+    position: relative;
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
 }
 .elastislide-horizontal ul {
-	white-space: nowrap;
+    white-space: nowrap;
 }
 .elastislide-carousel ul li {
-	margin: 0;
-	-webkit-backface-visibility: hidden;
+    margin: 0;
+    -webkit-backface-visibility: hidden;
 }
 .elastislide-horizontal ul li {
-	height: 100%;
-	display: inline-block;
+    height: 100%;
+    display: inline-block;
 }
 .elastislide-vertical ul li {
-	display: block;
+    display: block;
 }
 .elastislide-carousel ul li a {
-	display: inline-block;
-	width: 100%;
+    display: inline-block;
+    width: 100%;
 }
 .elastislide-carousel ul li a img {
-	display: block;
-	border: 2px solid white;
-	max-width: 100%;
+    display: block;
+    border: 2px solid white;
+    max-width: 100%;
 }
 /* Navigation Arrows */
 .elastislide-wrapper nav span {
-	position: absolute;
-	background: #ddd url(../img/elastislide_nav.png) no-repeat 4px 3px;
-	width: 23px;
-	height: 23px;
-	border-radius: 50%;
-	text-indent: -9000px;
-	cursor: pointer;
-	opacity: 0.8;
+    position: absolute;
+    background: #ddd url(../img/elastislide_nav.png) no-repeat 4px 3px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    text-indent: -9000px;
+    cursor: pointer;
+    opacity: 0.8;
 }
 .elastislide-wrapper nav span:hover {
-	opacity: 1.0
+    opacity: 1.0
 }
 .elastislide-horizontal nav span {
-	top: 50%;
-	left: 10px;
-	margin-top: -11px;
+    top: 50%;
+    left: 10px;
+    margin-top: -11px;
 }
 .elastislide-vertical nav span {
-	top: 10px;
-	left: 50%;
-	margin-left: -11px;
-	background-position: -17px 5px;
+    top: 10px;
+    left: 50%;
+    margin-left: -11px;
+    background-position: -17px 5px;
 }
 .elastislide-horizontal nav span.elastislide-next {
-	right: 10px;
-	left: auto;
-	background-position: 4px -17px;
+    right: 10px;
+    left: auto;
+    background-position: 4px -17px;
 }
 .elastislide-vertical nav span.elastislide-next {
-	bottom: 10px;
-	top: auto;
-	background-position: -17px -18px;
+    bottom: 10px;
+    top: auto;
+    background-position: -17px -18px;
 }
 /* End ElastiSlide CSS */
 
@@ -795,7 +795,7 @@ h1 {
     font-size: 40px; font-size: 4.0em;
     color: #d3d300;
     padding-left: 17px;
-	float: left;
+    float: left;
 }
 h1 a {
     color: #d3d300;
@@ -819,6 +819,9 @@ p {
     font-size: 12px; font-size: 1.2rem;
     line-height: 1em;
     margin: 0px 0px 0px 17px;    
+}
+label {
+    font-size: 12px; font-size: 1.2em;
 }
 a {
     margin: 0px 0px 0px 0px;
@@ -943,8 +946,8 @@ header img {
 .content_block {
     border-top: solid 11px #2bbcf2;
     padding-bottom: 2px;
-	margin-top: 10px;
-	border-radius: 8px 8px 8px 8px;
+    margin-top: 10px;
+    border-radius: 8px 8px 8px 8px;
     -moz-border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
     width: 100%;
@@ -953,9 +956,9 @@ header img {
     background: #fff;
     color: #6b6b6b;
     box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
-	-webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
     -moz-box-shadow: 9px 10px 24px 0px rgba(0,0,0,0.67);
-	clear: none;
+    clear: none;
 }
 .content_block img {
     margin: 5px;
@@ -984,11 +987,11 @@ label, button, select, input, textarea {
 }
 label {
     margin-top: 5px;
-	margin-left: 17px;
-	vertical-align: top;
-	text-align: right;
-	width: 83px;
-	float:left;
+    margin-left: 17px;
+    vertical-align: top;
+    text-align: right;
+    width: 83px;
+    float:left;
     clear:left;
 }
 #submit {
@@ -999,7 +1002,7 @@ label {
 /* Start Aside Styling */
 aside {
     float: left;
-	clear: both;
+    clear: both;
 }
 /* End Aside Styling */
 
@@ -1034,7 +1037,7 @@ span.align-meter {
 
 img.iframe-contact {
     float: none;
-	vertical-align:middle;
+    vertical-align:middle;
 }
 
 @media print {
@@ -1048,7 +1051,7 @@ img.iframe-contact {
 
 @media only screen and (max-width : 320px) {
     /* How to Create a Responsive Navigation. */
-	nav li {
+    nav li {
         display: block;
         float: none;
         width: 100%;
@@ -1060,7 +1063,7 @@ img.iframe-contact {
 
 @media only screen and (max-width : 480px) {
     /* How to Create a Responsive Navigation. */
-	nav {
+    nav {
         border-bottom: 0;
     }
     nav ul {
@@ -1087,7 +1090,7 @@ img.iframe-contact {
 
 @media screen and (max-width: 600px) {
     header {max-width:600px; margin: 0px auto;}
-	nav { 
+    nav { 
         height: auto;
     }
     nav ul {
@@ -1109,7 +1112,7 @@ img.iframe-contact {
         width: 100%;
         text-indent: 25px;
     }
-	nav a#pull {
+    nav a#pull {
         display: block;
         background-color: #004a80;
         width: 100%;
@@ -1128,7 +1131,7 @@ img.iframe-contact {
 }
 
 @media screen and (min-width: 601px) {
-    header {max-width:768px; margin: 0px auto;}
+   /* header {max-width:768px; margin: 0px auto;}*/
     header img {
         display: inline;
         float: right;
@@ -1168,10 +1171,10 @@ img.iframe-contact {
         margin-right: auto;
         text-shadow: 1px 1px 0px #000;
     }
-	footer p #cms {
-	    font-family: "shanghairegular";
-		color: #d3d300;
-	}
+    footer p #cms {
+        font-family: "shanghairegular";
+        color: #d3d300;
+    }
 }
 @media screen and (max-width: 991px) {
     header {max-width:991px; margin: 0px auto;}

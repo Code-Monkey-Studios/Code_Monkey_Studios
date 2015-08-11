@@ -2,18 +2,18 @@
     /* trigger when page is ready */    
     $(document).ready(function() {
                 
-        // Single Page Website Controls        
+        // Single Page Website Controls
         $('#fullpage').fullpage({ //FullPage.js
             resize: true,
-			// navigation
+            // navigation
             anchors: ['home', 'meetTheTeam', 'projects', 'contact'],
-            
             // scrolling
+            scrollOverflow: true,
+            loopHorizontal: true,
             css3: true,
             // call-backs
             onLeave: function(index, nextIndex, direction){
                 var leavingSection = $(this);
-
                 // after leaving section
                 $('nav li.selected').removeClass('selected');
             },            
@@ -76,8 +76,8 @@
             titleeasing : 'easeOutExpo',
             titlespeed : 1200
         }); // end Elastic Image Slideshow with Thumbnail Preview
-		
-		// Tool-Tip Controls (McFarland, 2011)
+
+        // Tool-Tip Controls (McFarland, 2011)
         $('body').on('mouseover', '.trigger',function(){
             var ttLeft,
                 ttTop,
@@ -107,7 +107,7 @@
                 position: 'absolute'
             }).fadeIn(0);
         }); // end Tool-Tip Controls (McFarland, 2011)
-    
+
         $('body').on('mouseout', '.trigger', function(){
             $('.tooltip').fadeOut(0);
         }); // end on()
